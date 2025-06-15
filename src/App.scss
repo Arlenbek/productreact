@@ -1,0 +1,27 @@
+@import "./assets/styles/Header.scss";
+@import "./assets/styles/product.scss";
+@import "./assets/styles/Backet.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button {
+  cursor: pointer;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 1260px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+button{
+  
+}

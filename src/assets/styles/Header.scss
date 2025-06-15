@@ -1,0 +1,32 @@
+#Header {
+  box-shadow: 0 0.5px 3px 0px gray;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  backdrop-filter: blur(4px);
+// 
+  background: rgba(255, 255, 255, 0.106);
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    nav {
+      display: flex;
+      font-size: 22px;
+      gap: 40px;
+
+      .active {
+        color: red;
+        border-bottom: 2px solid red;
+        transition: 0.3s;
+      }
+      a {
+        color: #05000b;
+        transition: 0.3s;
+        &:hover {
+          color: #0010a3;
+        }
+      }
+    }
+  }
+}
